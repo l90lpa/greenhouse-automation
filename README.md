@@ -1,6 +1,8 @@
 #Greenhouse Automation, Project Geoff
 
-This program is a collection of Python scripts to be run on a Raspberry Pi 3 to automate the watering of greenhouse plants when connected to the appropriate peripherals.
+This Python program designed to be run on a Raspberry Pi 3 to automate the watering of greenhouse plants when connected to the appropriate peripherals. The program also interacts with a PostgreSQL database to store the environmental data that is collected.
+
+Schematics for the hardware side of the project will be added in the near future but the main component list is: MCP3008 ADC microchip, analog soil moisture sensor, 12v 400mA water valve solenoid, raspberry pi 1, 2 or 3.
 
 ## 1. Folder structure
 - main.py: the main script which runs the program.
